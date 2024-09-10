@@ -1,0 +1,18 @@
+.icon-button {
+    background-color: #ffffff;
+    color: #aa0d0d;
+    border-color: #aa0d0d;
+    font-size: 0.7rem;
+    padding: 0;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.icon-button:hover {
+    box-shadow: 0 0 10px #aa0d0d; /* Customize the shadow color here */
+}
